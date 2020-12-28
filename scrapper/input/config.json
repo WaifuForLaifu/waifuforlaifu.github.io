@@ -1,0 +1,12 @@
+{
+    "MongoDB_URL": "mongodb+srv://ArleyaBot:AkihabaraCafe0@lightcluster.5ercl.mongodb.net/WaifuBot?retryWrites=true&w=majority",
+    "classic": {
+        "startYear": 2021,
+        "endYear": 2022,
+        "requireScoreAbove": 8.5,
+        "r18Content": true
+    },
+    "canvasRenderer": {
+        "iconToUse": "star.png"
+    }
+}

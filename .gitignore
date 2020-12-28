@@ -1,0 +1,5 @@
+.DS_Store
+scrapper/.vscode
+scrapper/dist
+scrapper/node_modules
+scrapper/output/raw

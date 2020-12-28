@@ -1,0 +1,28 @@
+{
+  "name": "mal-scrapper",
+  "version": "1.0.0",
+  "description": "Generates new cards for Arleya.",
+  "scripts": {
+    "eris:fix": "npm install --no-optional eris",
+    "download:classic": "tsc --skipLibCheck && node dist/source/classic.js",
+    "render": "tsc --skipLibCheck && node dist/source/canvas.js",
+    "lint": "npx prettier --write source && npx eslint source --ext .ts --fix"
+  },
+  "author": "Znudzony <krzysztof.rapior@protonmail.com>",
+  "license": "Apache-2.0",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^14.14.16",
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "jikants": "^1.2.13",
+    "jimp": "^0.16.1",
+    "mongoose": "^5.11.8"
+  }
+}
