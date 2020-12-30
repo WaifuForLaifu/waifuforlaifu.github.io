@@ -1,0 +1,7 @@
+{
+    "isWorking": true,
+    "doto": {
+        "makeBot": true,
+        "beFocused": true
+    }
+}
