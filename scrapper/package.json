@@ -4,9 +4,8 @@
   "description": "Generates new cards for Arleya.",
   "scripts": {
     "eris:fix": "npm install --no-optional eris",
-    "download:classic": "tsc --skipLibCheck && node dist/source/classic.js",
-    "render": "tsc --skipLibCheck && node dist/source/canvas.js",
-    "lint": "npx prettier --write source && npx eslint source --ext .ts --fix"
+    "render": "tsc --skipLibCheck && node dist/canvas.js",
+    "lint": "npx prettier --write src && npx eslint src --ext .ts --fix"
   },
   "author": "Znudzony <krzysztof.rapior@protonmail.com>",
   "license": "Apache-2.0",
@@ -23,6 +22,8 @@
     "canvas": "^2.6.1",
     "jikants": "^1.2.13",
     "jimp": "^0.16.1",
-    "mongoose": "^5.11.8"
+    "mongoose": "^5.11.17",
+    "mysql2": "^2.2.5",
+    "quick-ms": "^1.2.5"
   }
 }
